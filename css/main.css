@@ -9,6 +9,7 @@ header, footer {
 nav ul {
   font-family: sans-serif;
 }
+
 .logo {
   text-transform: uppercase;
 }
@@ -25,16 +26,12 @@ h2 {
   background-color: #b58900;
 }
 
-.dfn  strong:nth-child(2) {
+.dfn strong:nth-child(2) {
   color: #fff;
 }
 
-a {
+a:not(.no-highlight) {
   background-color: #719e07;
-}
-
-a > .no-highlight {
-  background-color: none;
 }
 
 [rel="external"] {
